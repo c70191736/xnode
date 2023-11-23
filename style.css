@@ -1,0 +1,482 @@
+*
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    color: #959595;
+    font-family: 'Poppins', sans-serif;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+body {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+@media only screen and (min-width: 280px){
+    header button {
+        padding: 10px 25px;
+        right: 5px;
+        top: 15px;
+    }
+
+    header button h3 span {
+        padding: 0 0 0 2px;
+    }
+
+    header button h3 img{
+        left: 1px;
+        top: 5px;
+    }
+
+    header img {
+        left: 10px;
+    }
+
+    .div .fst {
+        width: 100%;
+        font-size: 1.2rem;
+        margin-top: 6px;
+    }
+    .input {
+        width: 100%;
+        font-size: 0.7rem;
+    }
+    .input h3 button {
+        padding: 15px 20px;
+        top: 5px;
+    }
+    .link{
+        font-size: 0.8rem;
+    }
+    .button #button1 {
+        left: 5px;
+        border-radius: 10px;
+    }
+    .button #button2 {
+        padding: 15px 20px;
+        right: 5px;
+    }
+    .cont .content{
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    .phone-template div{
+        width: 100%;
+        height: 90%;
+    }
+    footer{
+        font-size: 0.8rem;
+    }
+}
+
+header
+{
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: 70px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+header img
+{
+    /* border: 1px solid black; */
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    padding: 2px;
+    top: 10px;
+    left: 3px;
+}
+
+header button
+{
+    /* border: 1px solid black; */
+    width: fit-content;
+    height: fit-content;
+    background-color: #00876f;
+    border-radius: 10px;
+    padding: 15px 15px;
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+header button h3 span
+{
+    
+    color: #ffffff;
+    padding: 0 0 0 20px;
+}
+
+header button:hover
+{
+    transform: scale(0.9);
+}
+.div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div .fst
+{
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: fit-content;
+    margin-top: 30px;
+    text-align: center;
+    padding: 35px 0;
+    font-size: 1.4rem;
+    background: linear-gradient(to bottom, #00876f, #56bdaa, #96ecdc, #c9fff5); 
+    -webkit-text-fill-color: transparent; 
+    background-clip: text;
+    -webkit-background-clip: text; 
+    line-height: 55px;
+    font-size: 1.5rem;
+}
+
+.div .fst span
+{
+    border: 1px solid #bde2dc;
+    padding: 1px 10px;
+    border-radius: 10px;
+}
+
+.input-box
+{
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: fit-content;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input 
+{
+    border: 1px solid #bde2dc;
+    width: 90%;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.input h3 input
+{
+    padding: 10px 2px;
+    outline: none;
+}
+
+.input h3 input::placeholder
+{
+    opacity: 0.3;
+}
+
+.input h3 button
+{
+    /* border: 1px solid black; */
+    width: fit-content;
+    height: fit-content;
+    background-color: #00876f;
+    border-radius: 10px;
+    padding: 18px 35px;
+    position: absolute;
+    right: 2px;
+    cursor: pointer;
+    transition: 1s;
+    color: #ffffff;
+    top: 2px;
+}
+
+.input h3 button:hover
+{
+    transform: scale(0.9);
+}
+
+.link
+{
+    /* border: 1px solid black; */
+    margin-top: 15px;
+    text-align: center;
+}
+
+.link a
+{
+    color: #00876f;
+}
+
+.button 
+{
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: 50px;
+    position: relative;
+    padding: 5px 0;
+    margin-top: 50px;
+}
+
+.button #button1
+{
+    border: 1px solid #bde2dc;
+    position: absolute;
+    padding: 15px 30px;
+    border-radius: 10px;
+    left: 35px;
+    color: #00876f;
+    transition: 1s;
+    background-color: #eafffb;
+}
+
+.button #button2
+{
+    border: 1px solid #bde2dc;
+    position: absolute;
+    padding: 15px 30px;
+    border-radius: 10px;
+    right: 35px;
+    color: #00876f;
+    transition: 1s;
+    background-color: #eafffb;
+}
+
+.button button:hover
+{
+    transform: scale(0.9);
+}
+.cont
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont .content
+{
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    text-align: center;
+    padding: 3px 5px;
+}
+
+.phone-template
+{
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: 800px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone-template div
+{
+    /* border: 1px solid black; */
+    width: 97%;
+    height: 100%;
+}
+
+.phone-template div img
+{
+    width: 100%;
+    height: 100%;
+}
+
+footer
+{
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 30px;
+    line-height: 35px;
+    padding: 3px 30px;
+}
+
+
+@media only screen and (min-width: 430px)
+{
+    header button {
+        padding: 15px 35px;
+        right: 25px;
+    }
+
+    header button h3 span {
+        padding: 0 0 0 20px;
+    }
+
+    header img {
+        left: 30px;
+    }
+
+    .div .fst {
+        width: 90%;
+    }
+    .input {
+        width: 70%;
+    }
+    .input h3 button {
+        padding: 18px 25px;
+    }
+    .button #button1 {
+        left: 70px;
+        border-radius: 10px;
+    }
+    .button #button2 {
+        padding: 15px 20px;
+        right: 70px;
+    }
+    .cont .content{
+        width: 80%;
+    }
+    .phone-template div{
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 540px)
+{
+    header button {
+        padding: 15px 35px;
+        right: 50px;
+    }
+
+    header button h3 span {
+        padding: 0 0 0 20px;
+    }
+
+    header button h3 img{
+        left: 20px;
+        top: 10px;
+    }
+
+    header img {
+        left: 30px;
+    }
+
+    .div .fst {
+        width: 90%;
+    }
+    .input {
+        width: 70%;
+    }
+    .input h3 button {
+        padding: 18px 25px;
+    }
+    .button #button1 {
+        left: 70px;
+        border-radius: 10px;
+    }
+    .button #button2 {
+        padding: 15px 20px;
+        right: 70px;
+    }
+    .cont .content{
+        width: 80%;
+    }
+    .phone-template div{
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    header button {
+        padding: 15px 35px;
+        right: 170px;
+    }
+
+    header button h3 span {
+        padding: 0 0 0 20px;
+    }
+
+    header button h3 img{
+        left: 20px;
+    }
+
+    header img {
+        left: 170px;
+    }
+
+    .div .fst {
+        width: 50%;
+    }
+    .input {
+        width: 40%;
+    }
+    .input h3 button {
+        padding: 18px 25px;
+    }
+    .button #button1 {
+        left: 220px;
+        border-radius: 10px;
+    }
+    .button #button2 {
+        padding: 15px 20px;
+        right: 220px;
+    }
+    .cont .content{
+        width: 45%;
+    }
+    .phone-template div{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .div .fst {
+        width: 35%;
+    }
+    .input {
+        width: 27%;
+        height: 30px;
+    }
+    .input h3 button {
+        padding: 15px 22px;
+        top: 2.5px;
+    }
+    .button #button1 {
+        left: 350px;
+    }
+    .button #button2 {
+        right: 350px;
+    }
+    .cont .content{
+        width: 35%;
+    }
+    .phone-template div{
+        width: 35%;
+    }
+}
+
+@media only screen and (min-width: 1280px){
+    header button {
+        right: 270px;
+    }
+    header img {
+        left: 270px;
+    }
+    .div .fst {
+        width: 30%;
+    }
+    .input {
+        width: 23%;
+    }
+    .button #button1 {
+        left: 480px;
+    }
+    .button #button2 {
+        right: 480px;
+    }
+    .cont .content{
+        width: 30%;
+    }
+    .phone-template div{
+        width: 30%;
+    }
+}
+
